@@ -12,7 +12,7 @@ export default function Home() {
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
---bg:#f2f2f7;--bg2:#ffffff;--bg3:#f2f2f7;--bg4:#e5e5ea;
+--bg:#ffffff;--bg2:#ffffff;--bg3:#ffffff;--bg4:#f5f5f5;
 --accent:#007aff;--accent2:#0051a8;--accent-dim:#b4d0f0;
 --text:#1c1c1e;--text2:#3a3a3c;--text3:#8e8e93;
 --green:#34c759;--yellow:#ffcc00;--orange:#ff9500;--red:#ff3b30;
@@ -41,7 +41,7 @@ header h1{font-size:18px;color:var(--text);letter-spacing:2px;font-weight:700;te
 #tab5:checked ~ .app-wrap .tab-content #panel-tools{display:block}
 
 /* Nav label styling */
-nav{display:flex;background:rgba(249,249,249,0.94);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-top:0.5px solid rgba(0,0,0,0.12);padding:0 0 env(safe-area-inset-bottom,4px)}
+nav{display:flex;background:#ffffff;border-top:1px solid var(--border);padding:0 0 env(safe-area-inset-bottom,4px)}
 nav label{flex:1;background:none;border:none;color:var(--text3);font-size:11px;padding:12px 4px 8px;display:flex;flex-direction:column;align-items:center;gap:0;cursor:pointer;transition:color .15s;text-align:center;-webkit-tap-highlight-color:transparent;user-select:none;font-weight:600;letter-spacing:0.8px;text-transform:uppercase;border-top:3px solid transparent;margin-top:-2px}
 nav label .icon{display:block;height:20px}
 nav label .icon svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
