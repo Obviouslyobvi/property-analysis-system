@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Property Title Intelligence System',
-  description: 'Interactive property title research and analysis tool',
+  title: 'Property Analysis System',
+  description: 'Interactive property analysis and research and analysis tool',
 }
 export default function RootLayout({ children }) {
   return (
