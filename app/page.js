@@ -88,7 +88,7 @@ details .card-body{padding:0 0 20px 36px}
 .step-num{background:var(--step);color:#fff;width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
 
 /* ===== SECTION HEADERS ===== */
-.section-title{font-size:13px;color:var(--text);margin:16px 0 6px;padding-bottom:0;border-bottom:none;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+.section-title{font-size:13px;color:var(--text);margin:12px 0 0;padding-bottom:0;border-bottom:none;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
 .section-title:first-child{margin-top:4px}
 
 /* ===== GLOSSARY ===== */
